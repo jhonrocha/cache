@@ -4,7 +4,7 @@ const { test, before, teardown, beforeEach } = require('tap')
 const fastify = require('fastify')
 const mercurius = require('mercurius')
 const cache = require('..')
-const Redis = require('ioredis-mock')
+const Redis = require('ioredis')
 
 const redisClient = new Redis()
 
